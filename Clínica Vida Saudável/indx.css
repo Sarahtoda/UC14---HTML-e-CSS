@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Clínica Vida Saudável</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f0f8ff;
+            margin: 20px;
+        }
+
+        #titulo-clinica {
+            color: darkblue;
+            text-align: center;
+        }
+
+        .bemvindo {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        #servicos, #medicos, #aviso {
+            background-color: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .servico, .medico {
+            border: 1px solid gray;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .depoimento {
+            background-color: white;
+            padding: 10px;
+            margin-top: 10px;
+            border-left: 4px solid blue;
+        }
+    </style>
