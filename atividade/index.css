@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RetroPlay - Loja de Games</title>
+    <style>
+        /* ===== VARIÁVEIS CSS ===== */
+        :root {
+            --cor-fundo: #0f0f1a;
+            --cor-primaria: #ff4655;
+            --cor-secundaria: #00ffaa;
+            --cor-texto: #e0e0e0;
+            --cor-card: #1e1e2a;
+            --sombra: 0 8px 20px rgba(0, 0, 0, 0.3);
+            --borda-arredondada: 16px;
+        }
+
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Courier New', monospace;
+            background-color: var(--cor-fundo);
+            color: var(--cor-texto);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
