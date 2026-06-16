@@ -1,0 +1,31 @@
+   <style>
+        button {
+            position: relative;
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            background-color: blue;
+            cursor: pointer;
+
+            animation: animacaoBotao 3s infinite;
+        }
+
+        @keyframes animacaoBotao {
+            0% {
+                left: 0px;
+                background-color: blue;
+            }
+
+            50% {
+                left: 200px;
+                background-color: green;
+            }
+
+            100% {
+                left: 0px;
+                background-color: red;
+            }
+        }
+    </style>
