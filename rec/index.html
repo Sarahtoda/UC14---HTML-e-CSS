@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1> Mundo Animal</h1>
+        <p>Descubra a diversidade e as curiosidades do reino animal!</p>
+    </header>
+
+    <nav class="navegacao">
+        <a href="#mamiferos">Mamíferos</a>
+        <a href="#aves">Aves</a>
+        <a href="#curiosidades">Curiosidades</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <main>
+
+        <section id="mamiferos" class="conteudo">
+            <h2> Conhecendo os Mamíferos</h2>
+
+            <p>
+                Os mamíferos são animais vertebrados que possuem
+                pelos em alguma fase da vida. Uma de suas principais
+                características é que as fêmeas produzem leite
+                para alimentar seus filhotes.
+            </p>
+
+            <p>
+                Existem mamíferos de diferentes tamanhos e habitats.
+                O elefante é um dos maiores animais terrestres,
+                enquanto o morcego é um mamífero capaz de voar.
+                Cachorros, gatos, leões e golfinhos também fazem
+                parte desse grupo.
+            </p>
+        </section>
+
+        <section id="aves" class="conteudo">
+            </h2> O Mundo das Aves</h2>
+
+            <p>
+                As aves são animais vertebrados que possuem
+                penas, bico e asas. A maioria consegue voar,
+                mas existem espécies que não voam, como o
+                pinguim e o avestruz.
+            </p>
+
+            <p>
+                As aves se reproduzem por meio de ovos e podem
+                ser encontradas em diversos ambientes, como
+                florestas, campos, praias e cidades.
+            </p>
+        </section>
+
+        <article id="curiosidades" class="destaque">
+            <h2> Você sabia?</h2>
+
+            <p>
+                O polvo possui três corações! Dois bombeiam
+                sangue para as brânquias e um bombeia sangue
+                para o restante do corpo. Além disso, seu
+                sangue tem uma coloração azulada.
+            </p>
+        </article>
+
+        <section id="quiz" class="conteudo quiz">
+            <h2> Teste seus conhecimentos!</h2>
+
+            <p>
+                Responda às cinco perguntas e descubra
+                quanto você sabe sobre os animais.
+            </p>
+
+            <div id="placar" aria-live="polite">
+                Pontuação: <span id="pontos">0</span> de 5
+            </div>
+
+            <div class="pergunta" data-correct="b">
+                <h3>1. Qual destes animais é um mamífero?</h3>
+                <button class="alternativa" data-answer="a">A) Galinha</button>
+                <button class="alternativa" data-answer="b">B) Golfinho</button>
+                <button class="alternativa" data-answer="c">C) Tartaruga</button>
+                <p class="feedback" aria-live="polite"></p>
+            </div>
+
+            <div class="pergunta" data-correct="a">
+                <h3>2. Quantos corações possui um polvo?</h3>
+                <button class="alternativa" data-answer="a">A) Três</button>
+                <button class="alternativa" data-answer="b">B) Um</button>
+                <button class="alternativa" data-answer="c">C) Dois</button>
+                <p class="feedback" aria-live="polite"></p>
+            </div>
+
+            <div class="pergunta" data-correct="c">
+                <h3>3. Qual animal é conhecido por ter uma tromba?</h3>
+                <button class="alternativa" data-answer="a">A) Leão</button>
+                <button class="alternativa" data-answer="b">B) Girafa</button>
+                <button class="alternativa" data-answer="c">C) Elefante</button>
+                <p class="feedback" aria-live="polite"></p>
+            </div>
+
+            <div class="pergunta" data-correct="b">
+                <h3>4. Qual destes animais é uma ave que não voa?</h3>
+                <button class="alternativa" data-answer="a">A) Águia</button>
+                <button class="alternativa" data-answer="b">B) Pinguim</button>
+                <button class="alternativa" data-answer="c">C) Papagaio</button>
+                <p class="feedback" aria-live="polite"></p>
+            </div>
+
+            <div class="pergunta" data-correct="a">
+                <h3>5. Qual é o maior animal do planeta?</h3>
+                <button class="alternativa" data-answer="a">A) Baleia-azul</button>
+                <button class="alternativa" data-answer="b">B) Elefante</button>
+                <button class="alternativa" data-answer="c">C) Tubarão-branco</button>
+                <p class="feedback" aria-live="polite"></p>
+            </div>
+
+            <p id="resultado" aria-live="polite"></p>
+
+            <button id="reiniciar" class="botao-reiniciar">
+                Reiniciar quiz
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Aluna: Sarah Toda Lima</p>
+        <p>SENAC Natal — UC15</p>
+        <p>Projeto educativo sobre o reino animal.</p>
+    </footer>
+
+</body>
+</html>
